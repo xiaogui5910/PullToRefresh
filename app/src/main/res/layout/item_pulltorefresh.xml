@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_container"
+    android:layout_marginRight="12dp"
+    android:layout_width="165dp"
+    android:layout_height="100dp"
+    android:background="@drawable/all_btn_bg">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="7"
+        android:singleLine="true"
+        android:textColor="#FF999999"
+        android:textSize="11sp"
+        android:text="第一标题" />
+
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_title"
+        android:layout_alignBottom="@+id/tv_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:text="第二标题"
+        android:textColor="#FF333333"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_subtitle"
+        android:layout_alignBottom="@+id/tv_subtitle"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@+id/tv_subtitle"
+        android:src="@mipmap/ic_launcher" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignLeft="@+id/tv_title"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:lines="2"
+            android:textColor="#FF333333"
+            android:textSize="12sp"
+            android:text="对标题的描述信息 对标题的描述信息 对标题的描述信息 对标题的描述信息 对标题的描述信息 对标题的描述信息 对标题的描述信息" />
+    </FrameLayout>
+</RelativeLayout>

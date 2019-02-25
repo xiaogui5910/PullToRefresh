@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullToRefreshLayout">
+        <attr name="scanMoreText" format="string"/>
+        <attr name="releaseScanMoreText" format="string"/>
+        <attr name="pullWidth" format="dimension"/>
+        <attr name="footerBgColor" format="color"/>
+        <attr name="footerWidth" format="dimension"/>
+        <attr name="footerPullMaxTop" format="dimension"/>
+        <attr name="footerBgRadius" format="dimension"/>
+        <attr name="footerVerticalMargin" format="dimension"/>
+        <attr name="moreViewMarginRight" format="dimension"/>
+        <attr name="moreViewVisibleWidth" format="dimension"/>
+        <attr name="moreViewTestSize" format="dimension"/>
+        <attr name="moreViewTextColor" format="color"/>
+        <attr name="moreViewMoveMaxDimen" format="dimension"/>
+    </declare-styleable>
+</resources>

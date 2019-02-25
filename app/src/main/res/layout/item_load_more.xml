@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="26dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="12dp"
+    android:layout_marginLeft="6dp"
+    android:text="查看更多"
+    android:id="@+id/tv_more_text"
+    android:textColor="@android:color/black"
+    android:layout_height="wrap_content" />
+</LinearLayout>
